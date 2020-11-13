@@ -11,13 +11,14 @@
 ## Install
 
 ```sh
-npm i
+npm install
 ```
 
-## Usage
+## Start
 
 ```sh
 npm start
+npm run start:dev
 ```
 
 ## Run tests
@@ -26,18 +27,30 @@ npm start
 npm run test:functional
 ```
 
+## Run pattern code analysis
+
+```sh
+npm run lint
+npm run lint:fix
+```
+
+## Run pattern style code
+
+```sh
+npm run style:check
+npm run style:fix
+```
+
 ## Author
 
 👤 **Yan Almeida Garcia**
 
 - Website: https://github.com/keys8410
 - Github: [@keys8410](https://github.com/keys8410)
-- LinkedIn: [@https:\/\/www.linkedin.com\/in\/yan-a-9aa672108\/](https://linkedin.com/in/https://www.linkedin.com/in/yan-a-9aa672108/)
+- LinkedIn: [@yan.almeida](https://linkedin.com/in/yan-a-9aa672108/)
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
 
 ---
-
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_

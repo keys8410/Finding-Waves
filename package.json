@@ -1,12 +1,26 @@
 {
   "name": "Node.js-TypeScript-API",
   "version": "1.0.0",
-  "description": "",
+  "description": "Typescript Node.js API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "npm run build && node dist/src/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "api"
+  ],
+  "author": "Yan Almeida Garcia",
+  "license": "ISC",
+  "git repository ": "https://github.com/keys8410/node.js-ts.learning",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.0",
+    "@types/node": "^14.14.7",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
 }

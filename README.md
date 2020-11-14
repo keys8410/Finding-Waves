@@ -8,6 +8,18 @@
 
 > Typescript Node.js API
 
+## Get Started
+
+```sh
+# cloning - http
+git clone https://github.com/keys8410/node.js-ts.learning.git
+
+# start project
+cd node.js-ts.learning
+
+# and tun the next command for install
+```
+
 ## Install
 
 ```sh
@@ -25,6 +37,7 @@ npm run start:dev
 
 ```sh
 npm run test:functional
+npm run test:unit
 ```
 
 ## Run pattern code analysis

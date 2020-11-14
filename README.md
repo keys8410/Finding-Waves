@@ -1,4 +1,5 @@
-<h1 align="center">Welcome to API whit Node.js and TypeScript for 🌊🌊 Finding waves 🌊🌊</h1>
+<h1 align="center">Welcome to API whit Node.js and TypeScript for</h1>
+<h1 align="center">🌊🌊 Finding waves 🌊🌊</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="#" target="_blank">
@@ -14,7 +15,7 @@
 # cloning - http
 git clone https://github.com/keys8410/node.js-ts.learning.git
 
-# start project
+# enter the folder
 cd node.js-ts.learning
 
 # and tun the next command for install

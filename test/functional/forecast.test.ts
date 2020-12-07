@@ -45,5 +45,3 @@ describe('Beach forecast functional tests', () => {
     ]);
   });
 });
-
-// comentario

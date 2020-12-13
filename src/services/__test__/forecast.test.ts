@@ -5,7 +5,7 @@ import {
   BeachPosition,
   Forecast,
   ForecastProcessingInternalError,
-} from '../forecast';
+} from '@src/services/forecast';
 
 jest.mock('@src/clients/stormGlass');
 

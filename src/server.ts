@@ -9,7 +9,7 @@ export class SetupServer extends Server {
     super();
   }
 
-  public init(): void {
+  public async init(): Promise<void> {
     this.setupExpress();
 
     this.setupControllers();
@@ -17,6 +17,7 @@ export class SetupServer extends Server {
 
   private setupExpress(): void {
     this.app.use(bodyParser.json());
+    this.setupControllers();
   }
 
   private setupControllers(): void {
